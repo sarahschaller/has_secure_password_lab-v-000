@@ -3,7 +3,7 @@ class UsersController < ApplicationController
   end
 
   def index
-    @user = current_user 
+    @user = current_user
     render template: 'users/homepage'
   end
 
